@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calenda.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="titulo">
+        <img class="ico" src="icon.png" alt="">
+       <h3 class="sma">
+           
+          <center> Smart Gym Sena</center>
+       </h3>
+   </div>
+
+   <div class="menu">
+       <ul>
+         <li><a href="gym.html">Lista de Miembros</a></li>
+         <li><a href="register.html">Registro</a></li>
+         <li><a href="calenda.html">Renovacion Membresia</a></li>
+         <li><a href="#">Historial de Suscripciones</a></li>
+         <li><a href="#">Contacto</a></li>
+       </ul>
+   </div>
+   
+<a href=""></a>
+     
+     <div class="card">
+            <a href="gym.html">
+            <button  class ="miembros">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+                <span class="circle4"></span>
+                <span class="circle5"></span>
+                <span class="text">Lista de Miembros</span>
+            </button></a>
+           <div class="perfil">
+            <h2>
+              Renovacion Membresia
+            </h2>
+      </div>
+     <div class="imagen4">
+            <img src="user.png" alt="" width="80">
+     </div>
+     <div class="input-group">
+            <label class="label">Fecha de Inicio:</label>
+            <input type="date" name="Email" id="Email" class="input" type="email">
+     <div></div></div>
+           
+
+      <div class="input-group1">
+                <label class="label">Fecha Final:</label>
+                <input type="date" name="Email" id="Email" class="input" type="email">
+      <div></div></div>
+
+
+
+
+      <div class="pendiente">
+            <h3>
+              Plan De Entrenamiento:
+            </h3>
+
+            <div class="mydict">
+                    <div>
+                        <label>
+                          <button id="boton1" onclick="mostrarInputs(1)"><input  type="radio" name="radio" checked=""></button>
+                            <span>GOLD</span>
+                        </label>
+                        <script src="scriptcalenda.js"></script>
+                        <label>
+                          <button id="boton2" onclick="mostrarInputs(2)"><input  type="radio" name="radio"></button>
+                            <span>ESTANDAR</span>
+                        </label>
+                        <label>
+                          <button id="boton3" onclick="mostrarInputs(3)"><input type="radio" name="radio"></button>
+                            <span>BASICO</span>
+                        </label>
+                    <div id="input-container"></div>
+                    <div id="inputs1" style="display:none;">
+                      <input type="text" placeholder="$79.900">
+                      
+                    </div>
+                    <div id="inputs2" style="display:none;">
+                      <input type="text" placeholder="$60.000">
+                     
+                    </div>
+                    <div id="inputs3" style="display:none;">
+                      <input type="text" placeholder="$50.000">
+                      
+                    </div>
+                </div>
+    </div>
+
+  <a href="carga.html"><button class="guardar">
+               GUARDAR
+         </button></a>
+         
+</body>
+</html>
